@@ -32,7 +32,7 @@ def Parameters():
 
     while Bettor.choice not in 'O E'.split():
         print("Choose between the given options")
-        Bettor.choice = input("choose color type R for red or B for black:")
+        Bettor.choice = input("choose number, type O for Odd or E for Even:")
 
     if Bettor.choice=='E':
         Bettor.choice='2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36'.split()
